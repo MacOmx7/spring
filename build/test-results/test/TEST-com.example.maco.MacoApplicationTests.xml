@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.maco.MacoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-03T20:39:36" hostname="LVLPZSIS27" time="0.794">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.maco.MacoApplicationTests" time="0.794"/>
+  <system-out><![CDATA[16:39:32.926 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.maco.MacoApplicationTests]: MacoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:39:33.054 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.maco.MacoApplication for test class com.example.maco.MacoApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2024-06-03T16:39:33.495-04:00  INFO 34364 --- [    Test worker] com.example.maco.MacoApplicationTests    : Starting MacoApplicationTests using Java 17.0.9 with PID 34364 (started by mcanqui in C:\Users\mcanqui\spring\maco)
+2024-06-03T16:39:33.496-04:00  INFO 34364 --- [    Test worker] com.example.maco.MacoApplicationTests    : The following 1 profile is active: "dev"
+2024-06-03T16:39:34.172-04:00  INFO 34364 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03T16:39:34.205-04:00  INFO 34364 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 JPA repository interfaces.
+2024-06-03T16:39:34.609-04:00  INFO 34364 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-03T16:39:34.827-04:00  INFO 34364 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@79b18230
+2024-06-03T16:39:34.829-04:00  INFO 34364 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-03T16:39:34.891-04:00  INFO 34364 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03T16:39:34.976-04:00  INFO 34364 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-06-03T16:39:35.028-04:00  INFO 34364 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-03T16:39:35.347-04:00  INFO 34364 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-03T16:39:35.853-04:00  INFO 34364 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-03T16:39:35.862-04:00  INFO 34364 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03T16:39:36.051-04:00  WARN 34364 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03T16:39:36.659-04:00  INFO 34364 --- [    Test worker] com.example.maco.MacoApplicationTests    : Started MacoApplicationTests in 3.425 seconds (process running for 4.781)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
